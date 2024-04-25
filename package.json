@@ -1,0 +1,16 @@
+{
+  "name": "generate-session-id",
+  "version": "1.0.0",
+  "description": "To Generate Session String for telethon",
+  "main": "generate-session-string.js",
+  "scripts": {
+    "start": "node getSessionString.js"
+  },
+  "author": "Jitendra Nath Swami",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "input": "^1.0.1",
+    "telegram": "^2.20.15"
+  }
+}
